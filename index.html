@@ -1,253 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewpoint" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>4LUX | Ecommerce Website</title>
+    <title>MBIBA</title>
+
+    <!-- box icons -->
+
+    <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
-    />
   </head>
   <body>
-    <div class="header">
-      <div class="container">
-        <div class="navbar">
-          <div class="logo">
-            <img src="images/222.jpg" width="125px" />
-          </div>
-          <nav>
-            <ul id="MenuItems">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <li><a href="account.html">Account</a></li>
-              <li><a href="profile.html">Profile</a></li>
-            </ul>
-          </nav>
-          <img src="images/cart-38.png" width="30px" height="30px" />
-          <img
-            src="images/pngegg (1).png"
-            class="menu-icon"
-            onclick="menutoggle()"
-          />
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo"> <span>MBIBA</span> CHRIS</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="project.html">Project</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About Me</a>
+      </nav>
+    </header>
+
+    <!--home section design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mbiba Christopher</h1>
+        <h3>I Am An Economist, and <span>Data Scientist</span> Tech enthusiast.</h3>
+        <p>I also have interest in Research and Policy Making.</p>
+
+        <div class="icon">
+          <a href="#"> <ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-whatsapp"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-google"></ion-icon></a>
+          <a href="#"> <ion-icon name="logo-skype"></ion-icon></a>
         </div>
-        <div class="row">
-          <div class="col-2">
-            <h2>Luxury 4 All!</h2>
-            <p>We Bring You The Very Best Of Luxurious Clothing.</p>
-            <a href="" class="btn">Explore Now &#8594;</a>
-          </div>
-          <div class="col-2"></div>
-          <img src="images/6.jpg" />
-        </div>
+        <a href="" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/sticker.webp" alt="" />
       </div>
     </div>
+    </section>
 
-    <!-------- featured categories --------->
-    <div class="categories">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-4">
-            <img src="images/4.jpg" />
-          </div>
-          <div class="col-4">
-            <img src="images/1.jpeg" />
-          </div>
-          <div class="col-4">
-            <img src="images/14.jpg" />
-          </div>
-        </div>
+    <!-----about section design----->
+        
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/sticker1.webp" alt="">
+
       </div>
-    </div>
-    <!-------- featured products --------->
-    <div class="small-container">
-      <h2 class="title">Featured Products</h2>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/7.jpg" />
-          <h4>Jello</h4>
 
-          <p>$25.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/19.jpg" />
-          <h4>4lux Combo</h4>
-
-          <p>$100.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/10.jpg" />
-          <h4>Oreo</h4>
-
-          <p>$30.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/5.jpg" />
-          <h4>4lux</h4>
-
-          <p>$60.00</p>
-        </div>
+      <div class="about-content">
+        <h2 class="heading"> About <span>Me</span> </h2>
+        <h3>Data Scientist and Economist</h3>
+        <p>Christopher Mbiba is a career-oriented and charismatic individual who seeks to diversify himself in order to fit anywhere. <br> 
+          I am a Bachelor of Arts Social Science (ECONOMICS AND GEOGRAPHY) and an aspiring Data Scientist. 
+          Proficiency in Python, R and SQL. 
+          <br> I have much interest in Research and Policy making.</p>
       </div>
-      <h2 class="title">Latest Products</h2>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/24.jpg" />
-          <h4>Jello</h4>
-          <p>$25.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/9.jpg" />
-          <h4>4lux Combo</h4>
-          <p>$100.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/3.jpg" />
-          <h4>Oreo</h4>
+    </section>
 
-          <p>$30.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/13.jpg" />
-          <h4>4lux</h4>
-
-          <p>$60.00</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <img src="images/26.jpg" />
-          <h4>Jello</h4>
-
-          <p>$25.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/28.jpg" />
-          <h4>4lux Combo</h4>
-
-          <p>$100.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/25.jpg" />
-          <h4>Oreo</h4>
-
-          <p>$30.00</p>
-        </div>
-        <div class="col-4">
-          <img src="images/27.jpg" />
-          <h4>4lux</h4>
-
-          <p>$60.00</p>
-        </div>
-      </div>
-    </div>
-    <!--------- offer --------->
-    <div class="offer">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-2">
-            <img src="images/88.png" class="offer-img" />
-          </div>
-          <div class="col-2">
-            <p>Exclusively Available For Staff</p>
-            <h1>T-Shirt</h1>
-
-            <small
-              >The 4lux is purely cotton and made for staff of 4lux commpany. It
-              comes in various colours and glows at night.</small
-            >
-
-            <a href="" class="btn">Buy Now &#8594; </a>
-          </div>
-        </div>
-      </div>
+    <!----skills section design----->
+    <section class="skills" id="skills">
+      
+      <div class="about-content">
+      <h2 class="heading">My Skills</h2>
+      <div class="skills-container">
+        <div class="icon">
+      <a href="#"> <ion-icon name="logo-bag"></ion-icon></a>
+      <h3>Economist</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veniam esse expedita deleniti ex earum dolores assumenda, voluptas saepe non, molestiae fuga quisquam consectetur obcaecati ullam, voluptatum laudantium modi itaque!
     </div>
 
-    <!----------- brands --------->
-    <div class="brands">
-      <div class="small-container">
-        <div class="row">
-          <div class="col-5">
-            <img src="images/paypal_PNG12.png" />
+    <div class="skills-container">
+      <div class="icon">
+    <a href="#"> <ion-icon name="logo-bag"></ion-icon></a>
+    <h3>Data Scientist</h3>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veniam esse expedita deleniti ex earum dolores assumenda, voluptas saepe non, molestiae fuga quisquam consectetur obcaecati ullam, voluptatum laudantium modi itaque!
+  </div>
+
+  <div class="skills-container">
+    <div class="icon">
+  <a href="#"> <ion-icon name="logo-bag"></ion-icon></a>
+  <h3>Tech enthusiat </h3>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos veniam esse expedita deleniti ex earum dolores assumenda, voluptas saepe non, molestiae fuga quisquam consectetur obcaecati ullam, voluptatum laudantium modi itaque!
+</div>
+    </section>
+
+
+    <!-----project section design------->
+    <section class="project" id="project">
+      <h2 class="heading">Project</h2>
+
+      <div class="project-container">
+        <div class="project-box">
+          <img src="images/10.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
           </div>
-          <div class="col-5">
-            <img src="images/samsung_logo_PNG2.png" />
+
+        </div>
+        <div class="project-box">
+          <img src="images/1.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
           </div>
-          <div class="col-5">
-            <img src="images/visa.png" />
+
+        </div>
+        <div class="project-box">
+          <img src="images/7.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
           </div>
-          <div class="col-5">
-            <img src="images/577.png" />
+
+        </div>
+        <div class="project-box">
+          <img src="images/7.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
           </div>
-          <div class="col-5">
-            <img src="images/cocacola_logo_PNG6.png" />
+
+        </div>
+        <div class="project-box">
+          <img src="images/5.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
           </div>
+
+        </div>
+        <div class="project-box">
+          <img src="images/6.jpg" alt="">
+          <div class="project-layer">
+            <h4>Web design</h4>
+            <p>Lorem ipsum dolor sit amet ab voluptatum.</p>
+          </div>
+
         </div>
       </div>
-    </div>
-    <!--------- footer--------->
+    </section>
 
-    <div class="footer">
-      <div class="containter">
-        <div class="row">
-          <div class="footer-col-1">
-            <h3>Download Our App.</h3>
-            <p>Download App For Android And Apple.</p>
-            <div class="app-logo">
-              <img src="images/google-play.png" />
-              <img src="images/gggg.png" />
-            </div>
-          </div>
-          <div class="footer-col-2">
-            <img src="images/shortLogo.e62322c232.png" />
-            <p>
-              Our Purpose Is To Bring You The Very Best Of Luxurious Clothing
-            </p>
-          </div>
-          <div class="footer-col-3">
-            <h3>Useful Links</h3>
-            <ul>
-              <li>Coupons</li>
-              <li>Blog Post</li>
-              <li>Return Policy</li>
-              <li>Join Affiliate</li>
-            </ul>
-          </div>
-          <div class="footer-col-4">
-            <h3>Follow us</h3>
-            <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Youtube</li>
-              <li>Instagram</li>
-            </ul>
-          </div>
+    <!----contact section design---->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact</h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
         </div>
-        <hr />
-        <p class="copyright">Copyright-2022 4lux</p>
-      </div>
-    </div>
-    <!----------js for toggle menu--------->
-    <script>
-      var MenuItems = document.getElementById("MenuItems");
 
-      MenuItems.style.maxHeight = "0px";
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="text" placeholder="Mobile Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your messsage"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
 
-      function menutoggle() {
-        if (MenuItems.style.maxHeight == "0px") {
-          MenuItems.style.maxHeight = "200px";
-        } else {
-          MenuItems.style.maxHeight = "0px";
-        }
-      }
-    </script>
+    <!-- custom js -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
   </body>
 </html>
